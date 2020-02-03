@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  max-width: 1920px;
+  ul {
+    list-style-type: none;
+  }
+
+  a:active {
+    color: #ffffff;
+  }
+}
+
+
+.top-block {
+  max-width: 1920px;
+  height: 96px;
+  box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+  background-color: #2f3242;
+  margin: 0px;
+
+  img {
+    padding: 31px 1200px 0px 29px;
+  }
+
+  .top-button-add {
+    max-width: 133px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #2196f3;
+    background-color: #2f3242;
+    padding-top: 4px;
+
+    span {
+      color: #ffffff;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .fas {
+      color: #2196f3;
+      padding-left: 27px;
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+.grid {
+  display: grid;
+  max-width: 1824px;
+  height: 984px;
+  background-color: white;
+  grid-template-columns: 96px 1824px;
+  grid-template-areas: "menu . . ." ;
+}
+
+
+
+.grid > :nth-child(1) {
+  max-width: 96px;
+  height: 884px;
+  box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+  background-color: #2f3242;
+  grid-row: menu;
+  grid-column: menu;
+
+}
+.inform-place {
+  max-width: 1824px;
+  padding: 0px;
+  ul {
+    padding: 0px;
+  }
+}
+.diagram-block {
+  background-color: #2b2d3c;
+  height: 119px;
+}
+
+.graph-block {
+  height: 579px;
+  max-width: 1824px;
+  background-color: #2b2d3c;
+}
+.table-block {
+height: 500px;
+  background-color: #ffffff;
+}
+
+
+.item-navigation-chat {
+  li {
+    height: 96px;
+
+
+  }
+}
+.size-icon {
+  width: 50px;
+  height: 50px;
+
+}
+
+  select {
+    /* Style for "Rounded Re" */
+    width: 157px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #2196f3;
+    /* Style for "Date" */
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 92px;
+    /* Text style for "D, ate" */
+    letter-spacing: 0.32px;
+    padding-left: 23px;
+  }
+
+
+
+
+

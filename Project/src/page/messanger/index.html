@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtus</title>
+    <script src="https://kit.fontawesome.com/2b008ac55f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="./assets/style/main.css" rel="stylesheet">
+    <link href="./assets/style/normalize.css" rel="stylesheet">
+</head>
+<body>
+<div class="block-icon">
+    <img src="./assets/images/icon.png">
+    <button class="top-button-add"><span>
+        Add  <i class="fas fa-plus"></i>
+    </span>
+    </button>
+</div>
+
+<section class="grid">
+
+    <div class="block-send">
+
+        <ul class="item-box">
+
+            <li class="box">
+                <a>
+                <span class="item-send-text">
+                    <i class="fas fa-inbox"></i>Inbox
+                </span>
+                </a>
+            </li>
+            <li class="box">
+                <a>
+                <span class="item-send-text">
+                    <i class="fab fa-telegram-plane"></i>Sent
+                </span>
+                </a>
+            </li>
+            <li class="box">
+                <a>
+                <span class="item-send-text">
+                   <i class="fas fa-trash"></i>Trash
+                </span>
+                </a>
+            </li>
+            <li>
+                <a class="block-setting-message">
+                    Filter message:
+                </a>
+            </li>
+            <li class="block-setting-message" >
+                <select>
+                <option class="block-option-text">
+                    <span>
+                    Date
+                    </span>
+                </option>
+                </select>
+            </li>
+        </ul>
+    </div>
+    <div class="item-navigation-chat field-chat">
+        <nav>
+            <ul>
+                <li class="home-page">
+                    <a>
+                        <i class=" fas fa-home "></i>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fas fa-bars size-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="../graph/index.html">
+                        <i class="fas fa-chart-line size-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fas fa-envelope size-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fas fa-user-friends size-icon"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+    <form id="threads-form" method="get" onload="getAllUserId()">
+        <div class="item-member-chat field-chat">
+            <ul id="list-user">
+                <li id="message-user">
+                    <a id="user">
+
+                    </a>
+                </li>
+                <li>
+                    <a>
+
+                    </a>
+                </li>
+                <li>
+                    <a>
+
+                    </a>
+                </li>
+                <li>
+                    <a>
+
+                    </a>
+                </li>
+                <li class="button-new-conver">
+                    <button>
+                        <i class="fas fa-plus"></i> New conversation
+                    </button>
+                </li>
+            </ul>
+
+        </div>
+
+    </form>
+
+<form method="post" action="#" id="chat-window">
+    <div class="dialog-window field-chat">
+        <ul id="messages" class="field-message"></ul>
+        <input id="textbox" type="text">
+        <button id="button" type="submit">Send</button>
+
+    </div>
+    <div class="block-personal-date">
+
+    </div>
+    <script src="js/message.js"></script>
+</form>
+
+</section>
+</body>
+</html>

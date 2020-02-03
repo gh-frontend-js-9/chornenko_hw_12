@@ -1,0 +1,134 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\000031}}
+ul {
+  list-style-type: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\000036}}
+.block-icon {
+  max-width: 1920px;
+  height: 96px;
+  -webkit-box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+          box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+  background-color: #2f3242;
+  margin: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000313}}
+  .block-icon img {
+    padding: 31px 1267px 0px 29px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000316}}
+  .block-icon .top-button-add {
+    width: 133px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #2196f3;
+    background-color: #2196f3;
+    padding-top: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000323}}
+    .block-icon .top-button-add span {
+      color: #ffffff;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000331}}
+.block-send {
+  max-width: 1920px;
+  height: 96px;
+  -webkit-box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+          box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+  background-color: #2196f3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000336}}
+  .block-send ul {
+    margin: 0px;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000340}}
+    .block-send ul li {
+      display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000345}}
+    .block-send ul a {
+      width: 43px;
+      height: 14px;
+      color: #2b2d3c;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 900;
+      line-height: 92px;
+      padding: 40px 0px 0px 41px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000358}}
+.home-page {
+  width: 96px;
+  height: 96px;
+  background-color: #2f3242; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000365}}
+.item-box {
+  padding: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000368}}
+.wrapper {
+  display: grid;
+  grid-template-columns: 96px 536px 970px 318px;
+  grid-template-rows: 889px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000373}}
+.item-navigation-chat {
+  width: 96px;
+  height: 889px;
+  -webkit-box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+          box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+  background-color: #2f3242;
+  display: block;
+  margin: 0px;
+  padding: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000381}}
+  .item-navigation-chat li {
+    height: 96px;
+    width: 96px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000388}}
+.item-member-chat {
+  width: 536px;
+  height: 889px;
+  -webkit-box-shadow: 0 3px 80px rgba(23, 24, 32, 0.3);
+          box-shadow: 0 3px 80px rgba(23, 24, 32, 0.3);
+  background-color: #2b2d3c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\0000395}}
+  .item-member-chat ul {
+    padding: 0px;
+    margin: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\00003100}}
+    .item-member-chat ul li {
+      width: 536px;
+      height: 194px;
+      background-color: #2f3242; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\00003106}}
+    .item-member-chat ul .button-new-conver {
+      height: 114px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\00003109}}
+    .item-member-chat ul button {
+      width: 449px;
+      height: 51px;
+      border-radius: 5px;
+      background-color: #2196f3;
+      border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\00003119}}
+.dialog-window {
+  width: 980px;
+  height: 889px;
+  -webkit-box-shadow: 0 3px 80px rgba(23, 24, 32, 0.3);
+          box-shadow: 0 3px 80px rgba(23, 24, 32, 0.3);
+  background-color: #2b2d3c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\00003126}}
+.block-personal-date {
+  width: 318px;
+  height: 889px;
+  -webkit-box-shadow: 0 3px 80px rgba(23, 24, 32, 0.3);
+          box-shadow: 0 3px 80px rgba(23, 24, 32, 0.3);
+  background-color: #2b2d3c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GeekHub\/sleep\/Project\/src\/page\/messanger\/assets\/style\/style\.scss}line{font-family:\00003132}}
+.field-message {
+  height: 788px; }
+
+/*# sourceMappingURL=style.css.map */

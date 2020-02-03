@@ -1,0 +1,134 @@
+ul {
+  list-style-type: none;
+
+
+}
+.block-icon {
+  max-width: 1920px;
+  height: 96px;
+  box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+  background-color: #2f3242;
+  margin: 0px;
+
+   img {
+    padding: 31px 1267px 0px 29px;
+  }
+  .top-button-add {
+    width: 133px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #2196f3;
+    background-color: #2196f3;
+    padding-top: 24px;
+      span {
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+      }
+  }
+}
+.block-send {
+  max-width: 1920px;
+  height: 96px;
+  box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+  background-color: #2196f3;
+  ul {
+    margin: 0px;
+    display: block;
+
+    li {
+      display: inline-block;
+
+    }
+
+    a {
+      width: 43px;
+      height: 14px;
+      color: #2b2d3c;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 900;
+      line-height: 92px;
+
+      padding: 40px 0px 0px 41px;
+    }
+  }
+}
+.home-page {
+  width: 96px;
+  height: 96px;
+  background-color: #2f3242;
+
+}
+
+.item-box {
+  padding: 0px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 96px 536px 970px 318px;
+  grid-template-rows: 889px;
+}
+.item-navigation-chat {
+  width: 96px;
+  height: 889px;
+  box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+  background-color: #2f3242;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+    li {
+      height: 96px;
+      width: 96px;
+
+    }
+
+}
+.item-member-chat {
+  width: 536px;
+  height: 889px;
+  box-shadow: 0 3px 80px rgba(23, 24, 32, 0.3);
+  background-color: #2b2d3c;
+
+
+    ul {
+      padding: 0px;
+      margin: 0px;
+
+
+      li {
+        width: 536px;
+        height: 194px;
+        background-color: #2f3242;
+
+      }
+      .button-new-conver {
+        height: 114px;
+      }
+      button {
+        width: 449px;
+        height: 51px;
+        border-radius: 5px;
+        background-color: #2196f3;
+        border: none;
+
+      }
+    }
+}
+.dialog-window {
+  width: 980px;
+  height: 889px;
+  box-shadow: 0 3px 80px rgba(23, 24, 32, 0.3);
+  background-color: #2b2d3c;
+
+}
+.block-personal-date {
+  width: 318px;
+  height: 889px;
+  box-shadow: 0 3px 80px rgba(23, 24, 32, 0.3);
+  background-color: #2b2d3c;
+}
+.field-message {
+  height: 788px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtus</title>
+    <script src="https://kit.fontawesome.com/2b008ac55f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+
+    <!-- DataTables -->
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+    <link href="./assets/style/main.css" rel="stylesheet">
+    <link href="./assets/style/normalize.css" rel="stylesheet">
+</head>
+<body onload="getAds()">
+<div class="top-block">
+    <img src="./assets/images/icon.png">
+    <button class="top-button-add"><span>
+        Add  <i class="fas fa-plus"></i>
+    </span>
+    </button>
+</div>
+
+<section class="grid">
+    <div class="item-navigation-chat field-chat">
+        <nav>
+            <ul>
+                <li class="home-page">
+                    <a>
+                        <i class=" fas fa-home "></i>
+                    </a>
+                </li>
+                <li>
+                    <a >
+                        <i class="fas fa-bars size-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a  id="page-graph" >
+                        <i class="fas fa-chart-line size-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fas fa-envelope size-icon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fas fa-user-friends size-icon"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+
+
+<form method="get"  id="graph-form" >
+    <ul class="inform-place">
+        <li class="diagram-block">
+
+        </li>
+        <li class="graph-block">
+
+        </li>
+        <li class="table-block">
+            <div class="create-table" id="create-table" >
+                <table id="data-table">
+                    <thead>
+                    <tr>
+                        <th>
+                            Campaing
+                        </th>
+                        <th>
+                            Time
+                        </th>
+                        <th>
+                            Views
+                        </th>
+                        <th>
+                            Visitors
+                        </th>
+                        <th>
+                            CTR
+                        </th>
+                        <th>
+                            CPC
+                        </th>
+                        <th>
+                            CPV
+                        </th>
+                        <th>
+                            CPM
+                        </th>
+                        <th>
+                            Status
+                        </th>
+                    </tr>
+                    </thead>
+
+
+                    <tbody id="add-data">
+                    <tr id='addr0'></tr>
+                    </tbody>
+
+
+                </table>
+            </div>
+        </li>
+    </ul>
+
+    <script src="datatable.js"></script>
+
+</form>
+
+</section>
+</body>
+</html>

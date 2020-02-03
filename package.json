@@ -1,0 +1,11 @@
+{
+  "name": "ProjectGH",
+  "version": "1.0.0",
+  "dependencies": {
+    "datatables.net-buttons": "^1.6.1"
+  },
+  "devDependencies": {
+    "datatables.net": "^1.10.20",
+    "jquery": "^3.4.1"
+  }
+}
